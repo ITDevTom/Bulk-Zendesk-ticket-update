@@ -25,9 +25,9 @@ data = { 'ticket': { 'comment': { 'body': body } } }
 payload = json.dumps(data)
 
 # Set the request parameters
-url = 'https://electio.zendesk.com/api/v2/tickets/update_many.json?ids=' + id1 + ',' + id2 + ',' + id3 + ',' + id4 + ',' + id5
-user = 'tom.dootson@sorted.com'
-pwd = 'Tjd0009196!'
+url = 'https://Conpany.zendesk.com/api/v2/tickets/update_many.json?ids=' + id1 + ',' + id2 + ',' + id3 + ',' + id4 + ',' + id5
+user = 'User@email.com'
+pwd = 'Password'
 headers = {'content-type': 'application/json'}
 
 # Do the HTTP put request
